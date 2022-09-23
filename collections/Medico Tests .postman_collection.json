@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "7db59316-97ad-4f4f-8466-d568b84c0fcc",
+		"name": "Medico Tests ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23184059"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/medicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/medicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"medicos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
